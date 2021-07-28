@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'NukeVietIcons';
   src:
-    url('fonts/NukeVietIcons.woff2?hxgunq') format('woff2'),
-    url('fonts/NukeVietIcons.ttf?hxgunq') format('truetype'),
-    url('fonts/NukeVietIcons.woff?hxgunq') format('woff'),
-    url('fonts/NukeVietIcons.svg?hxgunq#NukeVietIcons') format('svg');
+    url('fonts/NukeVietIcons.woff2?be0btz') format('woff2'),
+    url('fonts/NukeVietIcons.ttf?be0btz') format('truetype'),
+    url('fonts/NukeVietIcons.woff?be0btz') format('woff'),
+    url('fonts/NukeVietIcons.svg?be0btz#NukeVietIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -19,277 +19,57 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-dollar:before {
-  content: "\e942";
-}
-.icon-envelope:before {
-  content: "\e90b";
-}
-.icon-desktop:before {
-  content: "\e90c";
-}
-.icon-chevron-down:before {
-  content: "\e90d";
-}
-.icon-chevron-left:before {
-  content: "\e90e";
-}
-.icon-chevron-right:before {
-  content: "\e90f";
-}
-.icon-chevron-up:before {
-  content: "\e91a";
-}
-.icon-smartphone:before {
-  content: "\e91b";
-}
-.icon-radio:before {
-  content: "\e91c";
-}
-.icon-eye:before {
-  content: "\e91d";
-}
-.icon-expand:before {
-  content: "\e91e";
-}
-.icon-arrow-down:before {
-  content: "\e92c";
-}
-.icon-arrow-up:before {
-  content: "\e92f";
-}
-.icon-check:before {
-  content: "\e92b";
-}
-.icon-menu:before {
-  content: "\e91f";
-}
-.icon-arrow-left:before {
-  content: "\e930";
-}
-.icon-arrow-right:before {
-  content: "\e931";
-}
-.icon-disabled-radio:before {
-  content: "\e92a";
-}
-.icon-check-radio:before {
-  content: "\e92d";
-}
-.icon-star:before {
-  content: "\e92e";
-}
-.icon-star-empty:before {
-  content: "\e93a";
-}
-.icon-home:before {
-  content: "\e93d";
-}
-.icon-magnifier:before {
-  content: "\e93e";
-}
-.icon-cog:before {
-  content: "\e93f";
-}
-.icon-visibility-off:before {
-  content: "\e94a";
-}
-.icon-shuffle:before {
-  content: "\e94c";
-}
-.icon-rss:before {
-  content: "\e93c";
-}
-.icon-twitter:before {
-  content: "\e933";
-}
-.icon-google-plus:before {
-  content: "\e938";
-}
-.icon-facebook:before {
-  content: "\e939";
-}
-.icon-youtube:before {
-  content: "\e93b";
-}
-.icon-discount:before {
-  content: "\e94f";
-}
-.icon-gift:before {
-  content: "\e94e";
-}
-.icon-vip2:before {
-  content: "\e94d";
-}
-.icon-tick:before {
-  content: "\e94b";
-}
-.icon-certified:before {
-  content: "\e949";
-}
-.icon-select:before {
-  content: "\e946";
-}
-.icon-checklist:before {
-  content: "\e947";
-}
-.icon-bid:before {
-  content: "\e948";
-}
-.icon-edit:before {
-  content: "\e945";
-}
-.icon-delete:before {
-  content: "\e943";
-}
-.icon-vip:before {
-  content: "\e944";
-}
-.icon-filter:before {
-  content: "\e941";
-}
-.icon-vinades:before {
-  content: "\e940";
-}
-.icon-auction:before {
-  content: "\e932";
-}
-.icon-check-checkbox:before {
-  content: "\e928";
-}
-.icon-checkbox:before {
-  content: "\e929";
-}
-.icon-toggle-on:before {
-  content: "\e926";
-}
-.icon-toggle-off:before {
-  content: "\e927";
-}
-.icon-sync:before {
-  content: "\e90a";
-}
-.icon-dauthau-logo:before {
-  content: "\e925";
-}
-.icon-ellipsis:before {
-  content: "\e910";
-}
-.icon-disabled-checkbox:before {
-  content: "\e911";
-}
-.icon-bullhorn:before {
-  content: "\e912";
-}
-.icon-alarm:before {
-  content: "\e913";
-}
-.icon-crown:before {
-  content: "\e914";
-}
-.icon-callcenter:before {
-  content: "\e915";
-}
-.icon-calendar-user:before {
-  content: "\e916";
-}
-.icon-calendar:before {
-  content: "\e917";
-}
-.icon-old-phone:before {
-  content: "\e918";
-}
-.icon-users2:before {
-  content: "\e919";
-}
-.icon-users:before {
-  content: "\e920";
-}
-.icon-user:before {
-  content: "\e921";
-}
-.icon-exit:before {
-  content: "\e922";
-}
-.icon-enter:before {
-  content: "\e923";
-}
-.icon-key:before {
-  content: "\e924";
-}
-.icon-licence:before {
-  content: "\e958";
-}
-.icon-plan:before {
-  content: "\e957";
-}
-.icon-businessman:before {
-  content: "\e956";
-}
-.icon-solicitor:before {
-  content: "\e955";
-}
-.icon-bidding:before {
-  content: "\e954";
-}
-.icon-gavel:before {
-  content: "\e953";
-}
-.icon-responsive:before {
-  content: "\e937";
-}
-.icon-anonymous:before {
-  content: "\e935";
-}
-.icon-guest:before {
-  content: "\e936";
-}
-.icon-bot:before {
-  content: "\e934";
-}
-.icon-medal-first:before {
-  content: "\e900";
-}
-.icon-medal-second:before {
-  content: "\e901";
-}
-.icon-medal-third:before {
+.icon-error:before {
   content: "\e902";
 }
-.icon-zalo:before {
+.icon-success:before {
   content: "\e903";
 }
-.icon-qrcode:before {
+.icon-info:before {
   content: "\e904";
 }
+.icon-eye:before {
+  content: "\e900";
+}
+.icon-eye-slash:before {
+  content: "\e901";
+}
+.icon-today:before {
+  content: "\e600";
+}
+.icon-qrcode:before {
+  content: "\e601";
+}
+.icon-enter:before {
+  content: "\e602";
+}
+.icon-exit:before {
+  content: "\e603";
+}
 .icon-yahoo:before {
-  content: "\e905";
+  content: "\e604";
 }
 .icon-icq:before {
-  content: "\e906";
+  content: "\e605";
+}
+.icon-old-phone:before {
+  content: "\e606";
 }
 .icon-nukeviet:before {
-  content: "\e907";
+  content: "\e607";
 }
 .icon-nukeviet_sm:before {
-  content: "\e908";
+  content: "\e608";
+}
+.icon-callcenter:before {
+  content: "\e609";
 }
 .icon-viber:before {
-  content: "\e909";
+  content: "\e60a";
 }

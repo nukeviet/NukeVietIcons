@@ -8,9 +8,9 @@
 @font-face {
     font-family: '#{$icomoon-font-family}';
     src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2') format('woff2'),
-        url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff'),
-        url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf') format('truetype'),
-        url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -32,57 +32,21 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-dollar {
+.icon-error {
     &:before {
-        content: unicode($icon-dollar);
+        content: unicode($icon-error);
     }
 }
 
-.icon-envelope {
+.icon-success {
     &:before {
-        content: unicode($icon-envelope);
+        content: unicode($icon-success);
     }
 }
 
-.icon-desktop {
+.icon-info {
     &:before {
-        content: unicode($icon-desktop);
-    }
-}
-
-.icon-chevron-down {
-    &:before {
-        content: unicode($icon-chevron-down);
-    }
-}
-
-.icon-chevron-left {
-    &:before {
-        content: unicode($icon-chevron-left);
-    }
-}
-
-.icon-chevron-right {
-    &:before {
-        content: unicode($icon-chevron-right);
-    }
-}
-
-.icon-chevron-up {
-    &:before {
-        content: unicode($icon-chevron-up);
-    }
-}
-
-.icon-smartphone {
-    &:before {
-        content: unicode($icon-smartphone);
-    }
-}
-
-.icon-radio {
-    &:before {
-        content: unicode($icon-radio);
+        content: unicode($icon-info);
     }
 }
 
@@ -92,327 +56,21 @@
     }
 }
 
-.icon-expand {
+.icon-eye-slash {
     &:before {
-        content: unicode($icon-expand);
+        content: unicode($icon-eye-slash);
     }
 }
 
-.icon-arrow-down {
+.icon-today {
     &:before {
-        content: unicode($icon-arrow-down);
+        content: unicode($icon-today);
     }
 }
 
-.icon-arrow-up {
+.icon-qrcode {
     &:before {
-        content: unicode($icon-arrow-up);
-    }
-}
-
-.icon-check {
-    &:before {
-        content: unicode($icon-check);
-    }
-}
-
-.icon-menu {
-    &:before {
-        content: unicode($icon-menu);
-    }
-}
-
-.icon-arrow-left {
-    &:before {
-        content: unicode($icon-arrow-left);
-    }
-}
-
-.icon-arrow-right {
-    &:before {
-        content: unicode($icon-arrow-right);
-    }
-}
-
-.icon-disabled-radio {
-    &:before {
-        content: unicode($icon-disabled-radio);
-    }
-}
-
-.icon-check-radio {
-    &:before {
-        content: unicode($icon-check-radio);
-    }
-}
-
-.icon-star {
-    &:before {
-        content: unicode($icon-star);
-    }
-}
-
-.icon-star-empty {
-    &:before {
-        content: unicode($icon-star-empty);
-    }
-}
-
-.icon-home {
-    &:before {
-        content: unicode($icon-home);
-    }
-}
-
-.icon-magnifier {
-    &:before {
-        content: unicode($icon-magnifier);
-    }
-}
-
-.icon-cog {
-    &:before {
-        content: unicode($icon-cog);
-    }
-}
-
-.icon-visibility-off {
-    &:before {
-        content: unicode($icon-visibility-off);
-    }
-}
-
-.icon-shuffle {
-    &:before {
-        content: unicode($icon-shuffle);
-    }
-}
-
-.icon-rss {
-    &:before {
-        content: unicode($icon-rss);
-    }
-}
-
-.icon-twitter {
-    &:before {
-        content: unicode($icon-twitter);
-    }
-}
-
-.icon-google-plus {
-    &:before {
-        content: unicode($icon-google-plus);
-    }
-}
-
-.icon-facebook {
-    &:before {
-        content: unicode($icon-facebook);
-    }
-}
-
-.icon-youtube {
-    &:before {
-        content: unicode($icon-youtube);
-    }
-}
-
-.icon-discount {
-    &:before {
-        content: unicode($icon-discount);
-    }
-}
-
-.icon-gift {
-    &:before {
-        content: unicode($icon-gift);
-    }
-}
-
-.icon-vip2 {
-    &:before {
-        content: unicode($icon-vip2);
-    }
-}
-
-.icon-tick {
-    &:before {
-        content: unicode($icon-tick);
-    }
-}
-
-.icon-certified {
-    &:before {
-        content: unicode($icon-certified);
-    }
-}
-
-.icon-select {
-    &:before {
-        content: unicode($icon-select);
-    }
-}
-
-.icon-checklist {
-    &:before {
-        content: unicode($icon-checklist);
-    }
-}
-
-.icon-bid {
-    &:before {
-        content: unicode($icon-bid);
-    }
-}
-
-.icon-edit {
-    &:before {
-        content: unicode($icon-edit);
-    }
-}
-
-.icon-delete {
-    &:before {
-        content: unicode($icon-delete);
-    }
-}
-
-.icon-vip {
-    &:before {
-        content: unicode($icon-vip);
-    }
-}
-
-.icon-filter {
-    &:before {
-        content: unicode($icon-filter);
-    }
-}
-
-.icon-vinades {
-    &:before {
-        content: unicode($icon-vinades);
-    }
-}
-
-.icon-auction {
-    &:before {
-        content: unicode($icon-auction);
-    }
-}
-
-.icon-check-checkbox {
-    &:before {
-        content: unicode($icon-check-checkbox);
-    }
-}
-
-.icon-checkbox {
-    &:before {
-        content: unicode($icon-checkbox);
-    }
-}
-
-.icon-toggle-on {
-    &:before {
-        content: unicode($icon-toggle-on);
-    }
-}
-
-.icon-toggle-off {
-    &:before {
-        content: unicode($icon-toggle-off);
-    }
-}
-
-.icon-sync {
-    &:before {
-        content: unicode($icon-sync);
-    }
-}
-
-.icon-dauthau-logo {
-    &:before {
-        content: unicode($icon-dauthau-logo);
-    }
-}
-
-.icon-ellipsis {
-    &:before {
-        content: unicode($icon-ellipsis);
-    }
-}
-
-.icon-disabled-checkbox {
-    &:before {
-        content: unicode($icon-disabled-checkbox);
-    }
-}
-
-.icon-bullhorn {
-    &:before {
-        content: unicode($icon-bullhorn);
-    }
-}
-
-.icon-alarm {
-    &:before {
-        content: unicode($icon-alarm);
-    }
-}
-
-.icon-crown {
-    &:before {
-        content: unicode($icon-crown);
-    }
-}
-
-.icon-callcenter {
-    &:before {
-        content: unicode($icon-callcenter);
-    }
-}
-
-.icon-calendar-user {
-    &:before {
-        content: unicode($icon-calendar-user);
-    }
-}
-
-.icon-calendar {
-    &:before {
-        content: unicode($icon-calendar);
-    }
-}
-
-.icon-old-phone {
-    &:before {
-        content: unicode($icon-old-phone);
-    }
-}
-
-.icon-users2 {
-    &:before {
-        content: unicode($icon-users2);
-    }
-}
-
-.icon-users {
-    &:before {
-        content: unicode($icon-users);
-    }
-}
-
-.icon-user {
-    &:before {
-        content: unicode($icon-user);
-    }
-}
-
-.icon-exit {
-    &:before {
-        content: unicode($icon-exit);
+        content: unicode($icon-qrcode);
     }
 }
 
@@ -422,99 +80,9 @@
     }
 }
 
-.icon-key {
+.icon-exit {
     &:before {
-        content: unicode($icon-key);
-    }
-}
-
-.icon-licence {
-    &:before {
-        content: unicode($icon-licence);
-    }
-}
-
-.icon-plan {
-    &:before {
-        content: unicode($icon-plan);
-    }
-}
-
-.icon-businessman {
-    &:before {
-        content: unicode($icon-businessman);
-    }
-}
-
-.icon-solicitor {
-    &:before {
-        content: unicode($icon-solicitor);
-    }
-}
-
-.icon-bidding {
-    &:before {
-        content: unicode($icon-bidding);
-    }
-}
-
-.icon-gavel {
-    &:before {
-        content: unicode($icon-gavel);
-    }
-}
-
-.icon-responsive {
-    &:before {
-        content: unicode($icon-responsive);
-    }
-}
-
-.icon-anonymous {
-    &:before {
-        content: unicode($icon-anonymous);
-    }
-}
-
-.icon-guest {
-    &:before {
-        content: unicode($icon-guest);
-    }
-}
-
-.icon-bot {
-    &:before {
-        content: unicode($icon-bot);
-    }
-}
-
-.icon-medal-first {
-    &:before {
-        content: unicode($icon-medal-first);
-    }
-}
-
-.icon-medal-second {
-    &:before {
-        content: unicode($icon-medal-second);
-    }
-}
-
-.icon-medal-third {
-    &:before {
-        content: unicode($icon-medal-third);
-    }
-}
-
-.icon-zalo {
-    &:before {
-        content: unicode($icon-zalo);
-    }
-}
-
-.icon-qrcode {
-    &:before {
-        content: unicode($icon-qrcode);
+        content: unicode($icon-exit);
     }
 }
 
@@ -530,6 +98,12 @@
     }
 }
 
+.icon-old-phone {
+    &:before {
+        content: unicode($icon-old-phone);
+    }
+}
+
 .icon-nukeviet {
     &:before {
         content: unicode($icon-nukeviet);
@@ -542,9 +116,14 @@
     }
 }
 
+.icon-callcenter {
+    &:before {
+        content: unicode($icon-callcenter);
+    }
+}
+
 .icon-viber {
     &:before {
         content: unicode($icon-viber);
     }
 }
-
