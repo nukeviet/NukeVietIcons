@@ -32,6 +32,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-crown {
+    &:before {
+        content: unicode($icon-crown);
+    }
+}
+
 .icon-error {
     &:before {
         content: unicode($icon-error);

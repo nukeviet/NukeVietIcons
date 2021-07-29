@@ -5,6 +5,7 @@ $icomoon-font-path: "../fonts" !default;
   @return unquote("\"")+unquote(str-insert($icon, "\\", 1))+unquote("\"");
 }
 
+$icon-crown: "e905";
 $icon-error: "e902";
 $icon-success: "e903";
 $icon-info: "e904";
