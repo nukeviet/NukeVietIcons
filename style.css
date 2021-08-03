@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'NukeVietIcons';
   src:
-    url('fonts/NukeVietIcons.woff2?bpz1qs') format('woff2'),
-    url('fonts/NukeVietIcons.ttf?bpz1qs') format('truetype'),
-    url('fonts/NukeVietIcons.woff?bpz1qs') format('woff'),
-    url('fonts/NukeVietIcons.svg?bpz1qs#NukeVietIcons') format('svg');
+    url('fonts/NukeVietIcons.woff2?xndcjg') format('woff2'),
+    url('fonts/NukeVietIcons.ttf?xndcjg') format('truetype'),
+    url('fonts/NukeVietIcons.woff?xndcjg') format('woff'),
+    url('fonts/NukeVietIcons.svg?xndcjg#NukeVietIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-caret-right:before {
+  content: "\e906";
+}
+.icon-caret-left:before {
+  content: "\e907";
+}
+.icon-caret-up:before {
+  content: "\e908";
+}
+.icon-caret-down:before {
+  content: "\e909";
+}
 .icon-crown:before {
   content: "\e905";
 }
